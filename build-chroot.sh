@@ -29,7 +29,7 @@ function setup_chroot {
 }
 
 function package_chroot {
-	tar -cvjf $TARBALL $CHROOT_DIR
+	tar -cjf $TARBALL $CHROOT_DIR
 }
 
 function test_chroot {

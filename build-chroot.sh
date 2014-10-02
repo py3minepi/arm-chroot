@@ -34,6 +34,7 @@ function package_chroot {
 
 function test_chroot {
 	# TODO
+	echo "TODO"
 }
 
 setup_chroot

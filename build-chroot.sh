@@ -29,7 +29,8 @@ function setup_chroot {
 }
 
 function package_chroot {
-	tar -cjf $TARBALL $CHROOT_DIR
+	sudo tar -cjf $TARBALL $CHROOT_DIR
+	sudo chown $USER $TARBALL
 }
 
 function test_chroot {

@@ -4,8 +4,8 @@ script:
 addons:
     artifacts:
         debug: true
-        key: AWS_ACCESS_KEY
-        secret: AWS_SECRET_KEY
+        key: $AWS_ACCESS_KEY
+        secret: $AWS_SECRET_KEY
         bucket: py3minepi-arm-chroot
         paths:
             - /tmp/arm-chroot.tar.bz2
